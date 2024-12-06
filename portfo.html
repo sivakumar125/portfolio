@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    
+</head>
+<body>
+    <header  class="header">
+        <a href="#" class="logo">Siva kumar</a>
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>  
+        <i class="fa-solid fa-user"></i>
+    </header>
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="img2.jpeg" width="500" height="400">
+            <div class="info-box">
+                <div class="text">
+                    <h3>Hi,I'm</h3>
+                    <h1>Siva kumar</h1>
+                    <p>Fullstack Developer</p>
+                </div>
+                <div class="btn-group">
+                    <div class="btn">Download CV</div>
+                    <div class="btn">Contact me</div>
+                </div>
+                <div class="socials">
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience" class="experience">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-info">
+            
+            <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Fullstack Development</span>
+                    <h3>2 Years</h3>
+                    <p>I worked  in a start up company as a fullstack Developer
+                        and i have done some projects in that company
+                    </p>
+                  </div>
+                  <div class="grid-card">
+                    <i class="fa-solid fa-server"></i>
+                    <span>Server design</span>
+                    <h3>1 Year</h3>
+                    <p>I worked  in a start up company as a server designer
+                        and i have done some projects in that company
+                    </p>
+                  </div>
+                  <div class="grid-card">
+                    <i class="fa-regular fa-list"></i>
+                    <span>Content Manager</span>
+                    <h3>6 months</h3>
+                    <p>I worked  in a start up company as a content provider
+                        and i have done some projects in that company
+                    </p>
+                  </div>
+                  <div class="grid-card">
+                    <i class="fa-solid fa-laptop"></i>
+                    <span>System Designer</span>
+                    <h3>1 Years</h3>
+                    <p>I worked  in a start up company as a system designer
+                        and i have done some projects in that company
+                    </p>
+                  </div>
+            </div>
+            <img src="aizen.jpeg" width="300" height="300">
+        </div>
+    </section>
+    <section id="projects" class="projects">
+        <h2 class="section-title">My projects</h2>
+        <div class="projects-grid">
+            
+            
+                <div class="project-card">
+                    
+                    <img src="projectspo.png" >
+                    <h3>Project Spotify-clone</h3>
+                    <P>This is my first full stack website.I devoloped this 
+                        project by using MERN stack
+                    </P>
+                    <span>Click the below button to see  my project</span>
+                    <div class="btn-group">
+                        <a class="btn" href="https://spotify-fullsta.onrender.com/">Click here
+
+                        </a>
+
+                    </div>
+                </div>
+                <div class="project-card">
+                    
+                    <img src="projectx.png" >
+                    <h3>Project X</h3>
+                    <P>This is my first full stack website.I devoloped this 
+                        project by using MERN stack
+                    </P>
+                    <span>Click the below button to see  my project</span>
+                    <div class="btn-group">
+                        <a class="btn" href="https://spotify-fullsta.onrender.com/">Click here
+
+                        </a>
+
+                    </div>
+                </div>
+                <div class="project-card">
+                    
+                    <img src="projecty.png" >
+                    <h3>Project Y</h3>
+                   
+                    <P>This is my first full stack website.I devoloped this 
+                        project by using MERN stack
+                    </P>
+                    <span>Click the below button to see  my project</span>
+                    <div class="btn-group">
+                        <a class="btn" href="https://spotify-fullsta.onrender.com/">Click here
+
+                        </a>
+
+                    </div>
+                </div>
+                    
+            </div>
+        
+            
+           
+    </section>
+    <section class="contact" id="contact">
+        <div class="input-box">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="input">
+                <input type="text" placeholder="Send a message">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            
+            <div onclick="showMessage()" class="btnn">Submit</div>
+            <div  id="message" >
+                <p>Your message was sent successfully! </p>
+                <i class="fa-solid fa-check"></i>
+           
+    
+            </div>
+           
+
+        </div>
+        
+
+    </section>
+    <div class="footer">
+        <p>Thanks for visiting </p>
+        <i class="fa-solid fa-face-smile"></i>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
